@@ -16,6 +16,17 @@ The repository consists of five key files:
 
 - `scraping.py`: Utilizes BrightData's platform for scraping job postings from LinkedIn. This script is essential for gathering the real-world data that fuels our project, ensuring a rich and diverse dataset for training and evaluation.
 
+
+### Data Folder
+
+The `Data` folder contains essential files for the project:
+
+- `TemplateCV.txt`: This file contains the template used by both Gemini and our T5 model for generating CVs, ensuring consistency and realism in the output.
+
+- `scraped_data_job_posting_{number-of-jobs}.json`: These two files contain a total of 100 scraped job postings, providing a rich dataset for training and evaluation.
+
+- `train_cv_data.csv`: The training data for our fine-tuned model, containing the input prompts and Gemini's generated CVs for these prompts, which are used for model training and fine-tuning.
+
 ## Getting Started
 
 To get started with this project, clone this repository to your local machine. Ensure you have Python installed and set up the necessary environment, which includes the installation of required libraries and dependencies, such as HuggingFace's Transformers, BrightData's SDK, and others pertinent to data scraping, processing, and model training.
