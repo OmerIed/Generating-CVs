@@ -6,10 +6,8 @@ import json
 from bs4 import BeautifulSoup
 import os
 
-# AUTH = 'brd-customer-hl_80709a30-zone-scraping_browser_jobs-country-us:al7zmdzqx6qn'
-SBR_WEBDRIVER = 'https://brd-customer-hl_80709a30-zone-scraping_browser_jobs-country-us:al7zmdzqx6qn@brd.superproxy.io:9515'
-# SBR_WEBDRIVER = 'https://brd-customer-hl_80709a30-zone-kinan_samar_rawan_proxy:aezku7l5zcug@brd.superproxy.io:9515'
-# SBR_WEBDRIVER = f'https://{AUTH}@brd.superproxy.io:9515'
+SBR_WEBDRIVER = '{PATH TO BRIGHT DATA PROXY URL}'
+
 
 def append_to_json_file(file_path, new_data):
     try:
