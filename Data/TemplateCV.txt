@@ -1,0 +1,25 @@
+**[Candidate Name]**
+[Phone Number] | [Email Address] | [LinkedIn Profile URL] | [Location]
+
+**Summary**
+
+[Summary about the candidate. Infer from the data given below, do not make up false information.]
+
+**Experience**
+
+**[Current Role]**, [Current Company Name], [Start Date] - [End Date]
+* [Description of role]
+
+**[Previous Role]**, [Previous Company Name], [Start Date] - [End Date]
+* [Description of role]
+
+**Education**
+
+**[Last Degree]**, [University Name], [Graduation Date]
+**[Previous degree. Enter multiple degrees only if there's more than one]**, [University Name], [Graduation Date]
+
+**Skills**
+
+* [First skill. Infer the skills if not given explicitly. write a skill only if you are sure with high probability.]
+* [Second skill]
+* [Third skill]
