@@ -12,7 +12,7 @@ The repository consists of five key files:
 
 - `lab_model_training.ipynb`: This notebook contains the code for training the T5-small model. It utilizes HuggingFace's Trainer interface, showcasing the process of model fine-tuning and preparation for the CV generation task.
 
-- `preproccesing_pack`: A collection of utility functions that aid in handling various data types. These functions are crucial for converting raw data into a structured format suitable for our machine learning pipeline.
+- `preproccesing_pack.py`: A collection of utility functions that aid in handling various data types. These functions are crucial for converting raw data into a structured format suitable for our machine learning pipeline.
 
 - `scraping.py`: Utilizes BrightData's platform for scraping job postings from LinkedIn. This script is essential for gathering the real-world data that fuels our project, ensuring a rich and diverse dataset for training and evaluation.
 
@@ -23,18 +23,10 @@ To get started with this project, clone this repository to your local machine. E
 ## Usage
 
 1. **Data Collection**: Run `scraping.py` to collect job postings data from LinkedIn.
-2. **Data Preprocessing**: Use the `preproccesing_pack` to prepare and structure the collected data for model training.
+2. **Data Preprocessing**: Use the `preproccesing_pack.py` to prepare and structure the collected data for model training.
 3. **CV Generation**: Execute `gemini_cv_generation.py` to generate synthetic CVs using Gemini's API.
 4. **Model Training**: Train the T5-small model using `lab_model_training.ipynb`.
 5. **Evaluation**: Assess the model's performance by running `evaluate_finetuned_t5.ipynb` and review the Rouge scores.
-
-## Contribution
-
-We welcome contributions to this project! If you have suggestions for improvements or want to add new features, feel free to fork this repository, make your changes, and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
