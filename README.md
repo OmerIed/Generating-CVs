@@ -40,5 +40,5 @@ To get started with this project, clone this repository to your local machine. E
 5. **Evaluation**: Assess the model's performance by running `evaluate_finetuned_t5.ipynb` and review the Rouge scores.
 
 ---
-A link to our finetuned model weights: https://drive.google.com/drive/folders/13ivKSJ7NMLzT9iCG-vyltMVLHG4OOLH3?usp=sharing
+### A link to our finetuned model weights: **https://drive.google.com/drive/folders/13ivKSJ7NMLzT9iCG-vyltMVLHG4OOLH3?usp=sharing**
 We hope this repository serves as a valuable resource in your AI and machine learning journey, particularly in the realm of automated CV generation. Enjoy exploring and contributing to this innovative project!
