@@ -11,7 +11,7 @@ df_companies = pd.read_csv('data/companies_100.csv')
 PROFILES_PATH = 'data/profiles_small.csv'
 df_profiles = pd.read_csv(PROFILES_PATH)
 # file_path = 'scraped_data_job_postings_1000.json'
-genai.configure(api_key='***REMOVED***')
+genai.configure(api_key='{our_token}')
 
 model = genai.GenerativeModel('gemini-pro')
 # Keep it short and concise.
