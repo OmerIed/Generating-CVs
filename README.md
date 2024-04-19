@@ -16,6 +16,8 @@ The repository consists of five key files:
 
 - `scraping.py`: Utilizes BrightData's platform for scraping job postings from LinkedIn. This script is essential for gathering the real-world data that fuels our project, ensuring a rich and diverse dataset for training and evaluation.
 
+- `Data_analysis.ipynb` - Data analysis notebook extracted from DataBricks' platform 
+
 
 ### Data Folder
 
